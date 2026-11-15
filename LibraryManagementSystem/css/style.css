@@ -1,0 +1,168 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background-color: #1e293b;
+    position: fixed;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #334155;
+}
+
+.main {
+    margin-left: 250px;
+    padding: 30px;
+}
+
+.main h1 {
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.main p {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #64748b;
+    margin-bottom: 15px;
+}
+
+.card h1 {
+    color: #2563eb;
+    font-size: 32px;
+}
+
+.form-box {
+    background: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.form-box h2 {
+    margin-bottom: 20px;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    color: #334155;
+}
+
+.form-box input,
+.main form input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.message {
+    background: #dcfce7;
+    color: #166534;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+.book-table th,
+.book-table td {
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+.book-table th {
+    background: #1e293b;
+    color: white;
+}
+
+.book-table tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+.book-table form {
+    display: inline;
+}
+
+.book-table form button {
+    background: #dc2626;
+    padding: 7px 10px;
+}
+
+.book-table a {
+    color: #2563eb;
+    margin-right: 8px;
+}
+.form-box select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    background: white;
+}
